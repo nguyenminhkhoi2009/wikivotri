@@ -42,9 +42,7 @@ Bài toán đặt ra ở đây là: **Hãy tìm một con đường đi qua 7 c�
 
 ## **Đồ thị là gì?**
 
-|    |
-|:--:|
-| ![Hình ảnh minh hoạ](tongquan-03.png "Hình ảnh minh hoạ") |
+![Hình ảnh minh hoạ](tongquan-03.png "Hình ảnh minh hoạ")
 
 Những vòng tròn được gọi là các **đỉnh (vertices)** hoặc các **nút (nodes)**, và những đường thẳng nối những vòng tròn được gọi là các **cạnh (edges)**.
 
