@@ -40,11 +40,31 @@ Bài toán đặt ra ở đây là: **Hãy tìm một con đường đi qua 7 c�
 
 * Khởi đầu của tôpô học: Euler nhận ra rằng thông tin quan trọng là số lượng cầu và danh sách các vùng đất kết nối chúng, không cần đến vị trí chính xác. Điều này đánh dấu sự khởi đầu của ngành tôpô học, nơi hình dạng không gian linh hoạt và không cứng nhắc.
 
-### **Đồ thị là gì?**
+## **Đồ thị là gì?**
+
+|    |
+|:--:|
+| ![Hình ảnh minh hoạ](tongquan-03.png "Hình ảnh minh hoạ") |
+
+Những vòng tròn được gọi là các **đỉnh (vertices)** hoặc các **nút (nodes)**, và những đường thẳng nối những vòng tròn được gọi là các **cạnh (edges)**.
+
 Đồ thị là một cấu trúc dữ liệu cơ bản dùng để mô tả các mối quan hệ giữa các đối tượng. Một đồ thị gồm **hai thành phần chính:**
+
   1. **Đỉnh (Vertices hay Nodes)**: Đại diện cho các đối tượng hoặc các điểm.
   2. **Cạnh (Edges)**: Đại diện cho mối quan hệ giữa các đỉnh.
-### **Có bao nhiêu đồ thị?**
+
+Một đồ thị G sẽ được kí hiệu:
+
+  G = (V, E)
+  
+  Với V là tập hợp chứa các đỉnh, và E là tập hợp chứa các cạnh, mỗi cạnh có dạng một cặp giá trị {u, v} (có thể được viết thành uv). Ví dụ:
+  
+    G = {{1, 2, 3, 4, 5, 6}, {{1, 2}, {1, 5}, {2, 5}, {2, 3}, {3, 4}, {4, 5}, {4, 6}}} 
+  chính là đồ thị ở hình ví dụ trên.
+
+  Tập hợp đỉnh V của độ thì G được kí hiệu V(G), tập hợp cạnh được kí hiệu E(G).
+ 
+## **Có bao nhiêu đồ thị?**
   1. **Đồ thị vô hướng (Undirected Graph)**: Các cạnh không có hướng.
   2. **Đồ thị có hướng (Directed Graph)**: Các cạnh có hướng từ đỉnh này đến đỉnh khác.
   3. **Đồ thị đơn (Simple Graph)**: Không có cạnh lặp lại.
